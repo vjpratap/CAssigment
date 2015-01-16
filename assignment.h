@@ -1,0 +1,15 @@
+int fibo(int ,int *);
+int concat(int *,int ,int *,int ,int *);
+int filter(int *, int , int , int **);
+int reverse(int *, int , int *);
+int evenAndOdd(int *, int , int *, int *);
+int slice(int *, int , int , int , int **);
+int primeNumber(int, int, int**);
+int strcmp(char* , char*);
+int forEach(int *,int ,int (*fun)(int, int));
+int forEachChar(char *,int ,char (*fun)(char, int));
+int forEachString(char **,int ,int (*fun)(char *, int));
+int filterForInt(int *, int, int **,int (*fun)(int, int));
+int filterForChar(char *, int, char **, int (*fun)(char, int));
+int filterForString(char **,int ,char **,int (*fun)(char *, int));
+int filterForFloat(float *,int ,float **,int (*fun)(float, int));
